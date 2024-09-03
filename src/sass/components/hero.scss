@@ -1,0 +1,6 @@
+@use "../src/sass/fonts.scss" as *;
+@use "../src/sass/vars.scss" as *;
+@use "../src/sass/base.scss" as *;
+.hero {
+	background-color: $yelloe-bg;
+}

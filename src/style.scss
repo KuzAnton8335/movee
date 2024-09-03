@@ -1,0 +1,7 @@
+@use "../src/sass/fonts.scss" as *;
+@use "../src/sass/vars.scss" as *;
+@use "../src/sass/base.scss" as *;
+
+// components
+@use "../src/sass/components/hero.scss";
+@use "../src/sass/components/header.scss";
