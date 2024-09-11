@@ -1,6 +1,111 @@
 @use "../src/sass/fonts.scss" as *;
 @use "../src/sass/vars.scss" as *;
 @use "../src/sass/base.scss" as *;
+// !!! доделать стилизацию hero
 .hero {
 	background-color: $yelloe-bg;
+}
+.hero {
+	/* .hero__block */
+	padding-bottom: 83px;
+	min-height: 650px;
+
+	/* .hero__container */
+
+	&__container {
+		display: flex;
+		align-items: center;
+		gap: 67px;
+	}
+
+	/* .hero__block-left */
+
+	&__block-left {
+	}
+
+	/* .hero__info */
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* .hero__info-title */
+
+	&__info-title {
+		max-width: 480px;
+		font-weight: 700;
+		font-size: 70px;
+		line-height: 127%;
+		color: $black-color;
+		padding-bottom: 6px;
+	}
+
+	/* .hero__info-text */
+
+	&__info-text {
+		font-weight: 600;
+		font-size: 30px;
+		color: $black-color;
+		margin-bottom: 50px;
+	}
+
+	/* .hero__order */
+
+	&__order {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* .hero__order-btn */
+
+	&__order-btn {
+		padding: 16px 96px;
+		background-color: $red-color;
+		color: $white-color;
+	}
+
+	/* .hero__order-list */
+
+	&__order-list {
+	}
+
+	/* .hero__order-list-item */
+
+	&__order-list-item {
+	}
+
+	/* .hero__order-list-text */
+
+	&__order-list-text {
+	}
+
+	/* .hero__block-right */
+
+	&__block-right {
+	}
+
+	/* .hero__block-right-phone */
+
+	&__block-right-phone {
+	}
+
+	/* .hero__block-right-bg-1 */
+
+	&__block-right-bg-1 {
+	}
+
+	/* .hero__block-right-bg-2 */
+
+	&__block-right-bg-2 {
+	}
+
+	/* .hero__block-right-phone-link */
+
+	&__block-right-phone-link {
+	}
+}
+.container {
+}
+.btn {
 }
