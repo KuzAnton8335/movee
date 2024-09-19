@@ -1,0 +1,67 @@
+@use "../src/sass/fonts.scss" as *;
+@use "../src/sass/vars.scss" as *;
+@use "../src/sass/base.scss" as *;
+.about {
+	margin-top: 95px;
+	margin-bottom: 45px;
+	/* .about__container */
+
+	&__container {
+		max-width: 1166px;
+		padding: 0 30px;
+		margin: 0 auto;
+	}
+
+	/* .about__title */
+
+	&__title {
+		font-weight: 600;
+		font-size: 30px;
+		color: $black-color;
+		text-align: center;
+		padding-bottom: 60px;
+	}
+
+	/* .about__list */
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 50px;
+		column-gap: 144px;
+	}
+
+	/* .about__item */
+
+	&__item {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+	}
+
+	/* .about__item-number */
+
+	&__item-number {
+		flex-shrink: 0;
+		width: 61px;
+		height: 61px;
+	}
+
+	/* .about__item-subtitle */
+
+	&__item-subtitle {
+		padding-bottom: 15px;
+		font-weight: 700;
+		font-size: 20px;
+		color: $black-color;
+	}
+
+	/* .about__item-descr */
+
+	&__item-descr {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 131%;
+		color: $black-color;
+	}
+}
